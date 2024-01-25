@@ -1,0 +1,69 @@
+name: FOC_3.1
+schema: FOC_3.1
+session:  
+  contents:
+              
+      analysis:
+        contents:    
+      
+      events:
+        contents:
+          schema:
+            name: 'schema.yaml'
+          frames:
+            name: 'frames.csv'
+          events:
+            name: 'events.csv'
+      
+      scratch:
+        contents:
+          mov_unprocessed:
+            name: 'scratch/mov_unprocessed.h5'
+          mc_shifts:
+            name: 'scratch/mc_shifts.npy'
+          mc_summary:
+            name: 'scratch/mc_summary.pdf'
+          mc_template:
+            name: 'scratch/mc_template'  
+      
+      thorlabs:
+        contents:
+          md:
+            name: 'Experiment.xml'
+            read: ca_analysis.io.thorlabs.read_thorimage_metadata
+          mov:
+            name: 'Image.raw'
+            open: ca_analysis.io.thorlabs.open_thorimage_metadata
+            read: ca_analysis.io.thorlabs.read_thorimage_metadata
+          sync:
+            name: 'Episode001.h5'
+            read: ca_analysis.io.thorlabs.read_thorsync_data
+      
+      suite2p:
+        contents:
+          backup:
+            contents:
+              iscell:
+                name: 'iscell.npy'
+          F:
+            name: 'F.npy'
+          Fneu:
+            name: 'Fneu.npy'
+          iscell:
+            name: 'iscell.npy'
+          ops:
+            name: 'ops.npy'
+          spks:
+            name: 'spks.npy'
+          stat:
+            name: 'stat.npy'
+
+
+      attrs:
+        name: 'attrs.yaml'
+      data:
+        name: 'data.h5'
+      mov:
+        name: 'mov.h5'
+      sample:
+        name: 'sample.mp4'

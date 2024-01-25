@@ -1,0 +1,44 @@
+sequence: ABCD, all cells
+mean: day 0: 0.12263693701122264, day 5: 0.0972543007172412
+medians: day 0: 0.08903141377791796, day 5: 0.06600764107579615
+ks test: KstestResult(statistic=0.09533333333333334, pvalue=2.7786040591941576e-12, statistic_location=0.14530773015652168, statistic_sign=-1)
+
+sequence: ABBD, all cells
+mean: day 0: 0.159642479079068, day 5: 0.14002368266072374
+medians: day 0: 0.12665116005233645, day 5: 0.09704698179006234
+ks test: KstestResult(statistic=0.09866666666666667, pvalue=3.969893337554424e-13, statistic_location=0.06140819487056074, statistic_sign=-1)
+
+sequence: ACBD, all cells
+mean: day 0: 0.10940222149419859, day 5: 0.10025081181464143
+medians: day 0: 0.07637490078230688, day 5: 0.05954603783629151
+ks test: KstestResult(statistic=0.07, pvalue=8.179818714941059e-07, statistic_location=0.10942183466496955, statistic_sign=-1)
+
+sequence: ABCD, visual cells
+mean: day 0: 0.1282554616429374, day 5: 0.10065050202151676
+medians: day 0: 0.09175680741181587, day 5: 0.06703391485119822
+ks test: KstestResult(statistic=0.09666666666666666, pvalue=1.2862169287083916e-12, statistic_location=0.12591919139372765, statistic_sign=-1)
+
+sequence: ABBD, visual cells
+mean: day 0: 0.16987386502891616, day 5: 0.1512190836300243
+medians: day 0: 0.13789081167631678, day 5: 0.10529306186348228
+ks test: KstestResult(statistic=0.101, pvalue=9.769066668556602e-14, statistic_location=0.07020564698099604, statistic_sign=-1)
+
+sequence: ACBD, visual cells
+mean: day 0: 0.1173911695293874, day 5: 0.106619086413104
+medians: day 0: 0.08183720152778035, day 5: 0.058891259811658124
+ks test: KstestResult(statistic=0.07833333333333334, pvalue=1.9931164438199155e-08, statistic_location=0.11659539593274744, statistic_sign=-1)
+
+sequence: ABCD, gratings cells
+mean: day 0: 0.12109166656463405, day 5: 0.09448625700884099
+medians: day 0: 0.07892568367587116, day 5: 0.05402697337876115
+ks test: KstestResult(statistic=0.08433333333333333, pvalue=1.0600168040499607e-09, statistic_location=0.07433873634411776, statistic_sign=-1)
+
+sequence: ABBD, gratings cells
+mean: day 0: 0.1729599397948757, day 5: 0.14995787354611773
+medians: day 0: 0.13996702317263604, day 5: 0.0977576662010188
+ks test: KstestResult(statistic=0.097, pvalue=1.0591455110300035e-12, statistic_location=0.038089706243668316, statistic_sign=-1)
+
+sequence: ACBD, gratings cells
+mean: day 0: 0.11252648612071647, day 5: 0.10035156373932387
+medians: day 0: 0.06762716873341751, day 5: 0.0354966978216744
+ks test: KstestResult(statistic=0.089, pvalue=9.309990661110699e-11, statistic_location=0.01749710146127003, statistic_sign=-1)
